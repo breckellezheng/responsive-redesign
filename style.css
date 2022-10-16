@@ -62,7 +62,7 @@ p, li {
   margin-right: 5.4vw;
 	margin-top: 10px;
   letter-spacing: 0.3px;
-  font-size: 18.5px;
+  font-size: 18px;
   }
 
 .container {
@@ -76,14 +76,13 @@ p, li {
 	padding-left: 5rem;
 	margin-bottom:50px;
 	background-color:#eee;
-	
 }
 
 .project-section-title-bar {
-    margin-right:57rem;
-    margin-left: 5rem;
-    padding-bottom: 4px;
-    background-color: rgb(71, 130, 178);
+  margin-right:57rem;
+  margin-left: 5rem;
+  padding-bottom: 4px;
+  background-color: rgb(71, 130, 178);
  }
 
  .header-image {
@@ -96,16 +95,13 @@ p, li {
  }
 
  .banner-image {
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-top: 2rem;
   display: flex;
 	justify-content: center;
+  align-items: center;
   width: 100%
  }
 
  .ul, ul {
-  font-weight: bold;
   padding-left: 5rem;
  }
 
@@ -129,4 +125,33 @@ p, li {
   height: 6px;
   background: rgb(71, 130, 178);
   width: 0%;
+}
+
+button {
+  background-color: rgb(71, 130, 178);
+  border: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  width: 43vw;
+  margin: 8px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  transition-duration: 0.2s;
+}
+
+button:hover {
+  background-color: rgb(85, 151, 204);
+}
+
+a {
+  color: rgb(71, 130, 178);
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
